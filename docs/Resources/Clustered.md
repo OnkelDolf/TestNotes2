@@ -1,6 +1,4 @@
----
-share: "true"
----
+# Clustered
 #Avalanche-2014
 http://newq.net/dl/pub/SA2014Practical.pdf
 https://www.humus.name/Articles/PracticalClusteredShading.pdf
