@@ -1,6 +1,10 @@
 site_name: TestNotes2
 site_url: https://onkeldolf.github.io/TestNotes2
 
+extra_css: # <-------- HERE
+- assets/css/gruvbox-dark.css
+
+# Might want to delete line bellow??
 index_page: docs/Tasks.md
 theme:
     name: 'material'
@@ -17,9 +21,7 @@ theme:
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: blue
+      scheme: gruvbox-dark
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -58,3 +60,4 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
+
