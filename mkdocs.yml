@@ -2,8 +2,8 @@ site_name: TestNotes2
 
 theme:
     name: 'material'
+    custom_dir: docs/overrides
     palette:
-    
     scheme: gruvbox
     primary: green
     accent: green
