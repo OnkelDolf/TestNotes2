@@ -1,4 +1,5 @@
 site_name: TestNotes2
+site_url: https://onkeldolf.github.io/TestNotes2
 
 theme:
     name: 'material'
