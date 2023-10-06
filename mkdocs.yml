@@ -4,23 +4,27 @@ theme:
     name: 'material'
     palette:
 
+    scheme: gruvbox
+    primary: green
+    accent: green
+
     # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: pink
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+    #- media: "(prefers-color-scheme: light)"
+    #  scheme: default
+    #  primary: pink
+    #  accent: indigo
+    #  toggle:
+    #    icon: material/toggle-switch-off-outline
+    #    name: Switch to dark mode
 
     # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: pink
-      accent: blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+    #- media: "(prefers-color-scheme: dark)"
+    #  scheme: slate
+    #  primary: pink
+    #  accent: blue
+    #  toggle:
+    #    icon: material/toggle-switch
+    #    name: Switch to light mode
 
 # Extensions
 markdown_extensions:
@@ -50,11 +54,22 @@ markdown_extensions:
 
 plugins:
   - search
-  - roamlinks 
+  - roamlinks
 
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid/dist/mermaid.min.js 
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  - assets/javascripts/tablesort.js
+
+extra_css:
+  - assets/stylesheets/fonts.css
+  - assets/stylesheets/vars.css
+  - assets/stylesheets/scheme.css
+  - assets/stylesheets/primary.css
+  - assets/stylesheets/accent.css
+  - assets/stylesheets/admonitions.css
+  - assets/stylesheets/fixes.css
+  - assets/stylesheets/styles.css
