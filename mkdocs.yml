@@ -7,6 +7,13 @@ theme:
     scheme: gruvbox
     primary: green
     accent: green
+    features:
+    - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
 
 # Extensions
 markdown_extensions:
@@ -37,6 +44,12 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
+  - macros
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
 
 
 extra_javascript:
