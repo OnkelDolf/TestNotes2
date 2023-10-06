@@ -1,9 +1,9 @@
 [data-md-color-scheme="gruvbox-dark"] {
-    --md-primary-fg-color: #ebdbb2;
-    --md-accent-fg-color: #d5c4a1;
-    --md-primary-bg-color: #32302f;
-    --md-accent-bg-color: #1d2021;
-    --md-text-link-color: #458588;
+    --md-primary-fg-color: var(--fg1);
+    --md-accent-fg-color: var(--fg);
+    --md-primary-bg-color: var(--bg_s);
+    --md-accent-bg-color: var(--bg);
+    --md-text-link-color: var(--blue-dim);
 
     --bg_h: #1d2021;
     --bg:   #282828;
