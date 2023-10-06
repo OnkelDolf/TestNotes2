@@ -1,7 +1,6 @@
 site_name: TestNotes2
 site_url: https://onkeldolf.github.io/TestNotes2
 
-index_page: docs/Tasks.md
 theme:
     name: 'material'
     palette:
