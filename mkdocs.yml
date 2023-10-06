@@ -19,12 +19,9 @@ theme:
     
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
-      sceme: gruvbox-dark
-      primary: custom
-      accent: custom
-      #scheme: slate
-      #primary: black
-      #accent: blue
+      scheme: slate
+      primary: black
+      accent: blue
       toggle:
         icon: material/toggle-switch
 
