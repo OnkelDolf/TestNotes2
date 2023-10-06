@@ -9,7 +9,7 @@ index_page: docs/Tasks.md
 theme:
     name: 'material'
     palette:
-    scheme: gruvbox-dark
+      scheme: gruvbox-dark
 
     # Light mode
     #- media: "(prefers-color-scheme: light)"
