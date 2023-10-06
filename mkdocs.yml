@@ -9,23 +9,22 @@ index_page: docs/Tasks.md
 theme:
     name: 'material'
     palette:
-      scheme: gruvbox-dark
 
-    # Light mode
-    #- media: "(prefers-color-scheme: light)"
-    #  scheme: default
-    #  primary: black
-    #  accent: indigo
-    #  toggle:
-    #    icon: material/toggle-switch-off-outline
-    #    name: Switch to dark mode
-
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+    
     # Dark mode
-    #- media: "(prefers-color-scheme: dark)"
-    #  scheme: gruvbox-dark
-    #  toggle:
-    #    icon: material/toggle-switch
-    #    name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+
     
     features:
     - search.highlight
